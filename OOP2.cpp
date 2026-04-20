@@ -21,14 +21,14 @@ int main (){
   elektronik.nama = "Laptop";
   elektronik.jumlah = 5;
   elektronik.kategori = "Elektronik";
-  elektronik.tanggalpro = "14-02-2025";
+  elektronik.tanggalpro = "2025-02-14";
   
 
   Barang NonElektronik;
   NonElektronik.nama ="Meja";
   NonElektronik.jumlah = 10;
   NonElektronik.kategori = "NonElektronik";
-  NonElektronik.tanggalpro = "16-04-2024";
+  NonElektronik.tanggalpro = "2024-04-16";
 
   cout << "Barang 1 =" << endl;
   elektronik.Tampilkan();

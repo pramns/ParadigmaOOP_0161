@@ -9,10 +9,30 @@ class Barang {
     string tanggalpro;
 
     void Tampilkan(){
-      cout << "Nama = " << nama << endl;
-      cout << "jumlah = " << jumlah << endl;
-      cout << "Kategori = " << kategori << endl;
-      cout << "Tanggal Produksi = " << tanggalpro << endl;
+      cout << "-Nama = " << nama << endl;
+      cout << "-jumlah = " << jumlah << endl;
+      cout << "-Kategori = " << kategori << endl;
+      cout << "-Tanggal Produksi = " << tanggalpro << endl;
     }
 };
 
+int main (){
+  Barang elektronik;
+  elektronik.nama = "Laptop";
+  elektronik.jumlah = 5;
+  elektronik.kategori = "Elektronik";
+  elektronik.tanggalpro = "14-02-2025";
+  
+
+  Barang NonElektronik;
+  NonElektronik.nama ="Meja";
+  NonElektronik.jumlah = 10;
+  NonElektronik.kategori = "NonElektronik";
+  NonElektronik.tanggalpro = "16-04-2024";
+
+  cout << "Barang 1 =" << endl;
+  elektronik.Tampilkan();
+  cout << endl;
+  cout << "Barang 2 =" << endl;
+  NonElektronik.Tampilkan();
+}

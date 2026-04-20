@@ -30,9 +30,9 @@ int main (){
   NonElektronik.kategori = "NonElektronik";
   NonElektronik.tanggalpro = "2024-04-16";
 
-  cout << "Barang 1 =" << endl;
+ 
   elektronik.Tampilkan();
   cout << endl;
-  cout << "Barang 2 =" << endl;
+
   NonElektronik.Tampilkan();
 }
